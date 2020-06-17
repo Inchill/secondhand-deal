@@ -1,0 +1,108 @@
+Date : 2020-05-04 19:12:48
+Directory : d:\WebProjects\trading
+Total : 63 files,  13333 codes, 144 comments, 103 blanks, all 13580 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| JSON       |          5 |      9,931 |          0 |          2 |      9,933 |
+| Vue        |         18 |      2,152 |         32 |         49 |      2,233 |
+| TypeScript |         34 |      1,136 |         99 |         49 |      1,284 |
+| JavaScript |          4 |         96 |         13 |          2 |        111 |
+| HTML       |          1 |         18 |          0 |          0 |         18 |
+| Markdown   |          1 |          0 |          0 |          1 |          1 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++--------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                           | files      | code       | comment    | blank      | total      |
++--------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                              |         63 |     13,333 |        144 |        103 |     13,580 |
+| client                                                                         |         24 |      2,337 |         38 |         58 |      2,433 |
+| client\types                                                                   |          1 |          4 |          0 |          0 |          4 |
+| client\user                                                                    |         22 |      2,324 |         38 |         58 |      2,420 |
+| client\user\components                                                         |         17 |      2,098 |         32 |         46 |      2,176 |
+| client\user\components\base                                                    |          3 |        228 |          6 |         10 |        244 |
+| client\user\components\childrenPages                                           |          5 |        364 |          1 |         10 |        375 |
+| client\user\components\pages                                                   |          9 |      1,506 |         25 |         26 |      1,557 |
+| client\user\config                                                             |          2 |         29 |          0 |          4 |         33 |
+| server                                                                         |         30 |        970 |         93 |         40 |      1,103 |
+| server\config                                                                  |          3 |         41 |          3 |          5 |         49 |
+| server\controller                                                              |          8 |        327 |         31 |          8 |        366 |
+| server\model                                                                   |          8 |        276 |          0 |         16 |        292 |
+| server\routes                                                                  |          1 |         40 |         28 |          1 |         69 |
+| server\service                                                                 |          8 |        249 |         30 |          8 |        287 |
+| static                                                                         |          2 |         19 |          0 |          0 |         19 |
+| static\json                                                                    |          1 |          1 |          0 |          0 |          1 |
++--------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++--------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                                       | language   | code       | comment    | blank      | total      |
++--------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| d:\WebProjects\trading\README.md                                               | Markdown   |          0 |          0 |          1 |          1 |
+| d:\WebProjects\trading\client\tsconfig.json                                    | JSON       |          9 |          0 |          0 |          9 |
+| d:\WebProjects\trading\client\types\vue.d.ts                                   | TypeScript |          4 |          0 |          0 |          4 |
+| d:\WebProjects\trading\client\user\App.vue                                     | Vue        |         54 |          0 |          3 |         57 |
+| d:\WebProjects\trading\client\user\components\base\Address.vue                 | Vue        |        127 |          6 |          4 |        137 |
+| d:\WebProjects\trading\client\user\components\base\Goods.vue                   | Vue        |         49 |          0 |          3 |         52 |
+| d:\WebProjects\trading\client\user\components\base\Header.vue                  | Vue        |         52 |          0 |          3 |         55 |
+| d:\WebProjects\trading\client\user\components\childrenPages\AddressManage.vue  | Vue        |         64 |          0 |          2 |         66 |
+| d:\WebProjects\trading\client\user\components\childrenPages\FeedbackManage.vue | Vue        |         63 |          0 |          2 |         65 |
+| d:\WebProjects\trading\client\user\components\childrenPages\InfoManage.vue     | Vue        |         90 |          0 |          2 |         92 |
+| d:\WebProjects\trading\client\user\components\childrenPages\OrderManage.vue    | Vue        |         78 |          1 |          2 |         81 |
+| d:\WebProjects\trading\client\user\components\childrenPages\PublisherOrder.vue | Vue        |         69 |          0 |          2 |         71 |
+| d:\WebProjects\trading\client\user\components\pages\Cart.vue                   | Vue        |        306 |          5 |          3 |        314 |
+| d:\WebProjects\trading\client\user\components\pages\GoodsDetail.vue            | Vue        |        165 |          3 |          2 |        170 |
+| d:\WebProjects\trading\client\user\components\pages\Home.vue                   | Vue        |        165 |          0 |          3 |        168 |
+| d:\WebProjects\trading\client\user\components\pages\Login.vue                  | Vue        |         96 |          1 |          2 |         99 |
+| d:\WebProjects\trading\client\user\components\pages\Order.vue                  | Vue        |        269 |          7 |          5 |        281 |
+| d:\WebProjects\trading\client\user\components\pages\Publish.vue                | Vue        |        201 |          8 |          3 |        212 |
+| d:\WebProjects\trading\client\user\components\pages\Recommend.vue              | Vue        |         72 |          0 |          3 |         75 |
+| d:\WebProjects\trading\client\user\components\pages\Register.vue               | Vue        |        116 |          1 |          2 |        119 |
+| d:\WebProjects\trading\client\user\components\pages\UserCenter.vue             | Vue        |        116 |          0 |          3 |        119 |
+| d:\WebProjects\trading\client\user\config\aliOss.ts                            | TypeScript |          8 |          0 |          2 |         10 |
+| d:\WebProjects\trading\client\user\config\cookie.ts                            | TypeScript |         21 |          0 |          2 |         23 |
+| d:\WebProjects\trading\client\user\index.ts                                    | TypeScript |         55 |          5 |          3 |         63 |
+| d:\WebProjects\trading\client\user\router.ts                                   | TypeScript |         88 |          1 |          2 |         91 |
+| d:\WebProjects\trading\package-lock.json                                       | JSON       |      9,853 |          0 |          1 |      9,854 |
+| d:\WebProjects\trading\package.json                                            | JSON       |         58 |          0 |          1 |         59 |
+| d:\WebProjects\trading\server\app.ts                                           | TypeScript |         27 |          1 |          2 |         30 |
+| d:\WebProjects\trading\server\config\db.ts                                     | TypeScript |         17 |          0 |          3 |         20 |
+| d:\WebProjects\trading\server\config\session.ts                                | TypeScript |         13 |          1 |          1 |         15 |
+| d:\WebProjects\trading\server\config\tools.ts                                  | TypeScript |         11 |          2 |          1 |         14 |
+| d:\WebProjects\trading\server\controller\AddressController.ts                  | TypeScript |         35 |          3 |          1 |         39 |
+| d:\WebProjects\trading\server\controller\CartController.ts                     | TypeScript |         66 |          6 |          1 |         73 |
+| d:\WebProjects\trading\server\controller\CategoryController.ts                 | TypeScript |          9 |          1 |          1 |         11 |
+| d:\WebProjects\trading\server\controller\FeedbackController.ts                 | TypeScript |         13 |          1 |          1 |         15 |
+| d:\WebProjects\trading\server\controller\GoodsController.ts                    | TypeScript |         49 |          7 |          1 |         57 |
+| d:\WebProjects\trading\server\controller\ImageController.ts                    | TypeScript |         26 |          2 |          1 |         29 |
+| d:\WebProjects\trading\server\controller\OrderController.ts                    | TypeScript |         56 |          6 |          1 |         63 |
+| d:\WebProjects\trading\server\controller\UserController.ts                     | TypeScript |         73 |          5 |          1 |         79 |
+| d:\WebProjects\trading\server\model\AddressModel.ts                            | TypeScript |         36 |          0 |          2 |         38 |
+| d:\WebProjects\trading\server\model\CartModel.ts                               | TypeScript |         31 |          0 |          2 |         33 |
+| d:\WebProjects\trading\server\model\CategoryModel.ts                           | TypeScript |         21 |          0 |          2 |         23 |
+| d:\WebProjects\trading\server\model\FeedbackModel.ts                           | TypeScript |         25 |          0 |          2 |         27 |
+| d:\WebProjects\trading\server\model\GoodsModel.ts                              | TypeScript |         51 |          0 |          2 |         53 |
+| d:\WebProjects\trading\server\model\ImageModel.ts                              | TypeScript |         26 |          0 |          2 |         28 |
+| d:\WebProjects\trading\server\model\OrderModel.ts                              | TypeScript |         60 |          0 |          2 |         62 |
+| d:\WebProjects\trading\server\model\UserModel.ts                               | TypeScript |         26 |          0 |          2 |         28 |
+| d:\WebProjects\trading\server\routes\router.ts                                 | TypeScript |         40 |         28 |          1 |         69 |
+| d:\WebProjects\trading\server\service\AddressService.ts                        | TypeScript |         32 |          4 |          1 |         37 |
+| d:\WebProjects\trading\server\service\CartService.ts                           | TypeScript |         41 |          5 |          1 |         47 |
+| d:\WebProjects\trading\server\service\CategoryService.ts                       | TypeScript |          8 |          1 |          1 |         10 |
+| d:\WebProjects\trading\server\service\FeedbackService.ts                       | TypeScript |         10 |          1 |          1 |         12 |
+| d:\WebProjects\trading\server\service\GoodsService.ts                          | TypeScript |         83 |          9 |          1 |         93 |
+| d:\WebProjects\trading\server\service\ImageService.ts                          | TypeScript |         13 |          1 |          1 |         15 |
+| d:\WebProjects\trading\server\service\OrderService.ts                          | TypeScript |         29 |          4 |          1 |         34 |
+| d:\WebProjects\trading\server\service\UserService.ts                           | TypeScript |         33 |          5 |          1 |         39 |
+| d:\WebProjects\trading\server\tsconfig.json                                    | JSON       |         10 |          0 |          0 |         10 |
+| d:\WebProjects\trading\static\index.html                                       | HTML       |         18 |          0 |          0 |         18 |
+| d:\WebProjects\trading\static\json\map.json                                    | JSON       |          1 |          0 |          0 |          1 |
+| d:\WebProjects\trading\vue.config.js                                           | JavaScript |         13 |          0 |          0 |         13 |
+| d:\WebProjects\trading\webpack.common.js                                       | JavaScript |         69 |          8 |          0 |         77 |
+| d:\WebProjects\trading\webpack.dev.js                                          | JavaScript |          9 |          3 |          1 |         13 |
+| d:\WebProjects\trading\webpack.prod.js                                         | JavaScript |          5 |          2 |          1 |          8 |
+| Total                                                                          |            |     13,333 |        144 |        103 |     13,580 |
++--------------------------------------------------------------------------------+------------+------------+------------+------------+------------+

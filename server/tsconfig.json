@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "target": "es5",   // 编译目标平台
+        "module": "commonjs",
+        "sourceMap": true,
+        "lib": ["es2015", "es2016"], //添加需要的解析的语法，否则TS会检测出错
+    },
+    "include": ["controller", "routes", "service", "service", "model", "config"],
+    "exclude": ["node_modules", "dist"]
+}
